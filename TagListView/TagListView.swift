@@ -64,7 +64,7 @@ open class TagListView: UIView {
         }
     }
     
-    @IBInspectable open dynamic var cornerRadius: CGFloat = 0 {
+    @IBInspectable open dynamic var tagsCornerRadius: CGFloat = 0 {
         didSet {
             for tagView in tagViews {
                 tagView.cornerRadius = cornerRadius
